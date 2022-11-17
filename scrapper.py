@@ -3,7 +3,8 @@ import requests
 
 
 class Scrapper:
-    def _init_bs(self, source) -> bs4.BeautifulSoup:
+    @staticmethod
+    def _init_bs(source) -> bs4.BeautifulSoup:
         return bs4.BeautifulSoup(source, features="html.parser")
 
     def get_list_of_repos(self, tag: str, range_from: int = 1, range_to: int = 10) -> list[str]:
