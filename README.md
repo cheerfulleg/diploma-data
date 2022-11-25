@@ -1,6 +1,6 @@
 **GitHub project Scrapper and Analyzer**
 
-* Search project by tag in Github Topics.
+* Search python projects by tag in Github Topics.
 * [Radon](https://radon.readthedocs.io/en/latest/index.html) used to get code metrics.
 * Write metrics to csv.
 
